@@ -33,14 +33,14 @@ _NOTE: while this information may be found in the class documentaiton proper, it
 
 ####To add a new task:
 	
-  `Gino.input(title urgent, important, due date)`
+	`Gino.input(title urgent, important, due date)`
 
 #####Arguments:
 
   title - A string; the title for the task
-  urgent - A boolean; true for urgent, false for not urgent
-  important - A boolean; true for important, false for not important
-  due date - A string, representing the date due. To be parsed using Chronic.
+	urgent - A boolean; true for urgent, false for not urgent
+	important - A boolean; true for important, false for not important
+	due date - A string, representing the date due. To be parsed using Chronic.
 
 ####To compile a prioritized list
 
@@ -60,8 +60,8 @@ _NOTE: while this information may be found in the class documentaiton proper, it
 ###License
 
 This software is released under the WTFPL version 2 by Simon D. Orr. License follows.
-
-``` 			DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-	TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.```
+>
+>            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+>   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+>
+>  0. You just DO WHAT THE FUCK YOU WANT TO.
