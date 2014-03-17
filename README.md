@@ -33,7 +33,7 @@ _NOTE: while this information may be found in the class documentaiton proper, it
 
 ####To add a new task:
 	
-	`Gino.input(title urgent, important, due date)`
+  `Gino.input(title urgent, important, due date)`
 
 #####Arguments:
 
@@ -55,7 +55,7 @@ _NOTE: while this information may be found in the class documentaiton proper, it
 
   `Gino.quip`
 
-  Which will cause Gino to put a witty quip.
+  Which will cause Gino to `put` a witty quip.
 
 ###License
 
