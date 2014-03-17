@@ -23,8 +23,8 @@ This program is the core of Gino. It does nothing but the organizational meat. G
 
 ###Dependencies
 
-* [Chronic]: https://github.com/mojombo/chronic
-* [Daybreak]: http://propublica.github.io/daybreak/
+* Chronic: https://github.com/mojombo/chronic
+* Daybreak: http://propublica.github.io/daybreak/
 * Good humor
 
 ###Methods and Such
@@ -33,35 +33,35 @@ _NOTE: while this information may be found in the class documentaiton proper, it
 
 ####To add a new task:
 	
-	`Gino.input(title urgent, important, due date)`
+  `Gino.input(title urgent, important, due date)`
 
 #####Arguments:
 
-	title - A string; the title for the task
-	urgent - A boolean; true for urgent, false for not urgent
-	important - A boolean; true for important, false for not important
-	due date - A string, representing the date due. To be parsed using Chronic.
+  title - A string; the title for the task
+  urgent - A boolean; true for urgent, false for not urgent
+  important - A boolean; true for important, false for not important
+  due date - A string, representing the date due. To be parsed using Chronic.
 
 ####To compile a prioritized list
 
-    `Gino.output(format, location)`
+  `Gino.output(format, location)`
 
 #####Arguments:
 	
-	format - A string indicating format to output to. "text" for plaintext file. Defaults to Daybreak DB.
-	location - Locatino to write the file to
+  format - A string indicating format to output to. "text" for plaintext file. Defaults to Daybreak DB.
+  location - Locatino to write the file to
 
 ####To generate a witty quip
 
-	`Gino.quip`
+  `Gino.quip`
 
-	Which will cause Gino to put a witty quip.
+  Which will cause Gino to put a witty quip.
 
 ###License
 
 This software is released under the WTFPL version 2 by Simon D. Orr. License follows.
 
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
+``` 			DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE 
+	TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION 
 
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+  0. You just DO WHAT THE FUCK YOU WANT TO.```
